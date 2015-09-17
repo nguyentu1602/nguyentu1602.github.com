@@ -1,36 +1,23 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Dreaming overdose
+tagline:
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+### Why this blog?
+I was strongly motivated by [Jeff Atwood at codinghorror] [blog_link]. Basically he gives me a cool excuse to just muse the hack out of my mind and promises it will someday, with a probability, gets profound enough (like his).
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Hell yeah to that. It recently dawned on me that life is only a certain number of keystrokes away, so why not trying to catch all these elusive thoughts when I still can. Oh, and I also need a place to pin all the shell commands and the maths titbits that take forever for me to figure out but only two and a half seconds for them to escape my mind.
 
-## Update Author Attributes
+[blog_link]: http://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+### Posts
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+I still include the sample post because I must disect it before deleting it.
+It's in the `_posts/core-samples` folder.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+I can generate a list of posts here - not sure yet what language this is:
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +25,11 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+### More links to documentation
+These nice people spent their time to write up the instructions here:
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
+Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
+Please read them, dear me.
