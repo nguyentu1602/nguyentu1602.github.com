@@ -8,3 +8,7 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+#ignore emacs buffer files
+~*
+\#*
